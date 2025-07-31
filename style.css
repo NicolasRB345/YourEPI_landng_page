@@ -1,40 +1,48 @@
-body {
+/* Reset de margens e preenchimento padrão */
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  background-color: #f0f2f5;
+  box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Caixa do conteúdo */
 .container {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 20px;
-  background: white;
+  background-color: white;
+  padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
-
-header h1 {
-  font-size: 28px;
-  color: #2e7d32;
-}
-
-header p {
-  color: #555;
-  margin-bottom: 30px;
-}
-
-iframe {
   width: 100%;
-  max-width: 640px;
-  height: 360px;
-  border: none;
-  border-radius: 8px;
+  max-width: 500px;
 }
 
+/* Estilo do título */
+h1 {
+  color: #2e7d32;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+/* Texto abaixo do título */
+p {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Rodapé */
 footer {
-  margin-top: 30px;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #888;
 }
