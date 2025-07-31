@@ -2,20 +2,21 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f7fa;
+  background: #C4A783;
   color: #333;
 }
 
 header {
-  background: #0d4191;
-  color: white;
+  background: #4d5c43;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 2rem 1rem;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
 .container {
@@ -29,11 +30,17 @@ header h1 {
 
 .passo {
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .passo h2 {
   color: #0d47a1;
   font-size: 1.3rem;
+}
+
+.mensagem {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .passo p {
@@ -57,11 +64,59 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #666;
+  color: rgb(238, 238, 238);
 }
 
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.5rem;
   }
+}
+
+.passo-um {
+  height: 500px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.passo-dois {
+  height: 500px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.passo-tres {
+  height: 500px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.passo-quatro {
+  height: 500px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.passo-cinco {
+  height: 500px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.passo-seis {
+  height: 500px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.head-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.mascote {
+  height: 60px;
 }
