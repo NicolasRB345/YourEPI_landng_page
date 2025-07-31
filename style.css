@@ -118,5 +118,11 @@ footer {
 }
 
 .mascote {
+  height: 110px;
+}
+
+.logo-cerv {
   height: 300px;
+  display: block;
+  margin: 0 auto 10px auto;
 }
